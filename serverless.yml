@@ -1,6 +1,6 @@
 
 service: notes
-frameworkVersion: '3'
+frameworkVersion: '2.72.3'
 
 provider:
   name: aws
