@@ -13,7 +13,7 @@ phases:
   build:
     on-failure: ABORT
     commands:
-      - echoDeploying resources
+      - echo Deploying resources
       - serverless deploy --stage dev
 artifacts:
   files:
